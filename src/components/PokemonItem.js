@@ -1,11 +1,8 @@
 import React from "react";
 import { Card, CardImg, Col, Row } from "reactstrap";
-import "./Pokemon.css";
+import "./PokemonItem.css";
 
-class Pokemon extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+class PokemonItem extends React.Component {
 
   toUppercase(name) {
     return name.charAt(0).toUpperCase() + name.slice(1);
@@ -31,4 +28,4 @@ class Pokemon extends React.Component {
   }
 }
 
-export default Pokemon;
+export default PokemonItem;
